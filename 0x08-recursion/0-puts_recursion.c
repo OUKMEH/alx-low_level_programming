@@ -1,10 +1,8 @@
 #include "main.h"
-/*
- *FUNCTION THAT PRINTS A STRING FOLLOWED BY A NEW LINE
- @S:string
- *
- *
- *
+/**
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
