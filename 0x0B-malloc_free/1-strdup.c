@@ -2,15 +2,11 @@
 #include <stdlib.h>
 
 /**
-		
- * _strdup - duplicate to new memory space location
-		
- * @str: char
-		
- * Return: 0
-		
+ * *_strdup - copies the string given as parameter
+ * @str: string to duplicate
+ *
+ * Return: pointer to the copied string (Success), NULL (Error)
  */
-
 char *_strdup(char *str)
 {
 	char *strout;
